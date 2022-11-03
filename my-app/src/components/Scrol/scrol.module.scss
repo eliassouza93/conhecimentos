@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.container{
+   background-color: #333;
+   color: #efefef;
+   height: 70vh;
+   width: 100vw;
+   
+
+
+}
+
+ul{
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    max-height: 190px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}

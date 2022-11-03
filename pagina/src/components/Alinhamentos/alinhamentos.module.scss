@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+   // justify-content: space-between; //centraliza HORIZONTAL
+   // align-content: space-between; // centraliza  VERTICAL
+
+   //justify-items: center; centraliza todo o bloco desde que tenha espaço HORIZONTAL
+   //align-items: center; todo o clobo ao centro da tela VERTICAL
+    
+
+}
+.container >div{
+    background-color: #7159c1;
+ 
+}

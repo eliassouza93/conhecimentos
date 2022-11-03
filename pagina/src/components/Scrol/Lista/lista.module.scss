@@ -1,0 +1,18 @@
+
+.lista{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    max-height: 190px;
+    background-color: rgb(29, 28, 28);
+    color: #efefef;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 6px;
+    height: 30vh;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    
+}
+.separador{
+    padding: 8px;
+}

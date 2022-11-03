@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+.container{
+    display: grid;//inicia o grid
+    grid-template-columns:  8fr 1fr; //defini o tamanho das classes
+   // grid-gap: 20px 50px; //da espaçamento 20row 50 colum
+    grid-template-rows: 20vh 70vh 10vh;
+
+
+}
+header{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+main{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+aside{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+}
+footer{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   grid-area: 'a a';
+}
