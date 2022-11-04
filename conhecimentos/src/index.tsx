@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css'
-import Relogio from 'components/Tempo';
+import LocalStorage from 'components/LocalStorage';
+
 
 
 
@@ -14,7 +15,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Relogio />
+    <LocalStorage />
   </React.StrictMode>
 );
 
