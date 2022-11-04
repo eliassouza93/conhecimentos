@@ -3,13 +3,13 @@ import Botao from "../Botao";
 import { Itarefa } from "../Interfaces/tarefa";
 
 
-export default function Formulario({ setTarefas }: {
-    setTarefas: React.Dispatch<React.SetStateAction<
+export default function Formulario({ setTarefas }: {setTarefas: React.Dispatch<React.SetStateAction<
         Itarefa[]>>
 
 }) {
     const [tarefa, setTarefa] = useState('')
     const [hora, setHora] = useState('00:00')
+    
     const tudo:any = {
         tarefa,
         hora

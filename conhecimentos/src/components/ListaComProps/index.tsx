@@ -28,6 +28,7 @@ export default function InicioLista() {
     return (
         <div>
            <Lista tarefas={tarefas} />
+           
 
         </div>
     )
