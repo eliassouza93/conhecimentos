@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css'
-import Avancado from 'Avancado';
+import InicioLista from 'components/ListaComProps';
+
+
 
 
 
@@ -11,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Avancado />
+    <InicioLista />
   </React.StrictMode>
 );
 
