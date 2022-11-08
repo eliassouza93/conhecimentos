@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css'
-import LocalStorage from 'components/LocalStorage';
-
-
-
-
-
+import Dados from 'components/Dados';
 
 
 
@@ -15,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <LocalStorage />
+    <Dados />
   </React.StrictMode>
 );
 

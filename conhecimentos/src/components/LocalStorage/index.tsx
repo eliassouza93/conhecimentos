@@ -6,12 +6,14 @@ export default function LocalStorage() {
 
     const armazenar = (chave: any, valor: any) => {
         localStorage.setItem(chave, valor)
-        if(!armazenar){
+        if (!armazenar) {
             localStorage.setItem(chave, valor)
         }
     }
     const consultar = (chave: any) => {
+
         alert(localStorage.getItem(chave))
+
     }
     const apagar = (chave: any) => {
         localStorage.removeItem(chave)
