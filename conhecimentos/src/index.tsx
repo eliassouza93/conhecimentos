@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css'
-import Dados from 'components/Dados';
+import AmbienteLista from 'components/AmbienteLista';
+
 
 
 
@@ -10,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Dados />
+    <AmbienteLista />
   </React.StrictMode>
 );
 
