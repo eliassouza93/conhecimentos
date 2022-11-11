@@ -9,7 +9,7 @@ export default function Lista({ humano }: { humano: IPessoa[] }) {
         <div>
             {humano.map((user, index) => (
                 <Item key={index}
-                    {...user}
+                    {...user}   
                 />
             ))}
 

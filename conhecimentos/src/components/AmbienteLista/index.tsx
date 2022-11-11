@@ -27,6 +27,7 @@ export default function AmbienteLista() {
         <div>
             <Formulario setLista={setLista} />
             <Lista humano={lista} />
+            
 
 
         </div>

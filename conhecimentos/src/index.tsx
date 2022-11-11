@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css'
-import AmbienteLista from 'components/AmbienteLista';
+import InicioC from 'componentes/TestandoLIBs/Inicio';
+ 
+
 
 
 
@@ -11,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <AmbienteLista />
+    <InicioC />
   </React.StrictMode>
 );
 

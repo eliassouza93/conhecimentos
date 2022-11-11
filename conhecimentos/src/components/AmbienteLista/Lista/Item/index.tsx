@@ -3,8 +3,8 @@ export default function Item ({nome, idade} : {nome:string, idade:number}) {
         <div>
             <ul>
                 <h3>
-                    {nome}
-
+                    {nome} 
+                        
                 </h3>
                 <h5>
                     {idade}
