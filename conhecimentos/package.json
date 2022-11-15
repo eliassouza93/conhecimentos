@@ -8,12 +8,11 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.49",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
     "axios": "^0.27.2",
     "axos": "^0.0.1",
     "bootstrap": "^5.2.2",
     "classnames": "^2.3.1",
+    "link-react": "2.7.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
@@ -48,6 +47,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
     "sass": "^1.54.4",
     "typescript-plugin-css-modules": "^3.4.0"
   }

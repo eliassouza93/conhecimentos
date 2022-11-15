@@ -1,6 +1,6 @@
 import axios from "axios"
 import { Fragment, useEffect, useState } from "react"
-import style from './Consu.module.scss'
+
 interface IBGE {
 
     nome: string
@@ -27,7 +27,7 @@ export default function ConsuAPI() {
     }, [])
 
     return (
-        <div className={style.module}>
+        <div  >
             {carregando ? (<h1>Carregando</h1>) : (
                 <div>
                     {data.map((user, index) => (
