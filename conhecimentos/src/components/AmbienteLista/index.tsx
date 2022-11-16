@@ -21,6 +21,82 @@ export default function AmbienteLista() {
     }, {
         nome: 'Joao Paulo',
         idade: 35
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
+    }, {
+        nome: 'Ana Carolina',
+        idade: 22
+
     }])
 
     return (

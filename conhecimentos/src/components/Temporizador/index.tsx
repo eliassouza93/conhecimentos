@@ -17,7 +17,15 @@ export default function Temporizador() {
         tarefa: 'TypeScript',
         hora: '03:15:00'
 
-    }])
+    }, {
+        tarefa: 'JavaScript',
+        hora: '01:30:00'
+
+    }, {
+        tarefa: 'TypeScript',
+        hora: '03:15:00'
+
+    } ])
     return (
         <div className={style.estilo}>
             <Formulario setTarefas={setTarefas} />
