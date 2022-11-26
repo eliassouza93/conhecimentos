@@ -1,5 +1,6 @@
 
-import PrimeiroServidor from 'components/PrimeiroServidor';
+
+import Praticando from 'componentes1/praticando';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <PrimeiroServidor />
+    <Praticando />
   </React.StrictMode>
 );
 
