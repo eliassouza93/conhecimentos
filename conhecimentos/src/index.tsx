@@ -1,4 +1,5 @@
-import Temporizador from 'components/Temporizador';
+
+import PrimeiroServidor from 'components/PrimeiroServidor';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -10,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Temporizador />
+    <PrimeiroServidor />
   </React.StrictMode>
 );
 
