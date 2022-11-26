@@ -4,10 +4,15 @@ import Lista from "./lista"
 
 export default function Praticando() {
 
-    const [valor, setValor] = useState('')
+    const [nome, setNome] = useState('')
 
-    const [pos, setPos] = useState(false)
+    const [pos, setPos] = useState('')
 
+    function Pegar(event: any) {
+        event?.preventDefault()
+        setPos(nome)
+
+    }
 
     const lista = [
         { nome: 'Joao', idade: 33 },
@@ -22,11 +27,17 @@ export default function Praticando() {
 
     return (
         <div>
+            <input value={nome} type="text" onChange={(e) => setNome(e.target.value)} />
+
+            <button onClick={Pegar}>Clicar</button>
+
+            <h1> {pos} </h1>
+
             <h1>ReactJS</h1>
 
             <Lista setLista={lista} />
 
-            <button>Clicar</button>
+
 
         </div>
     )
