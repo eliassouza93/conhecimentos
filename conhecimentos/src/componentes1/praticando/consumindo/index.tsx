@@ -8,8 +8,6 @@ export default function Laboratorio() {
 
     const [tarefasAntigas, setTarefasAntigas] = useState('')
 
-  
-
     /*function adicionarTarefa(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
         setNomeTratado(tarefasAntigas => [...tarefasAntigas, { ...tudo }])
@@ -18,7 +16,8 @@ export default function Laboratorio() {
 
     function Tratamento(e: any) {
         e.preventDefault()
-        setNomeTratado()
+        setNomeTratado(nome)
+        
     }
     function Contador() {
         setCont(cont + 1)
@@ -30,6 +29,7 @@ export default function Laboratorio() {
         <div className={style.module}>
             <h1>Iniciando os testes</h1>
             <h1>Número atual:  {cont} </h1>
+
             <form onSubmit={Tratamento} >
                 <input required type="text" onChange={(e) => setNome(e.target.value)} />
                 <button >Adicionar nome</button>
@@ -37,7 +37,6 @@ export default function Laboratorio() {
 
             <button onClick={Contador}>Adicionar + 1</button>
             <button onClick={Contador1}>Adicionar - 1</button>
-
 
             <ul>
                 <li> {nomeTratado} </li>
