@@ -10,7 +10,7 @@ export default function Formulario147({ setTarefas }: {
 }) {
     const [nome, setNome] = useState('')
 
-
+ 
     function AdicionarTarefa(e: any) {
         e.preventDefault()
         setTarefas(tarefasAntigas => [...tarefasAntigas, { nome }])
@@ -20,10 +20,13 @@ export default function Formulario147({ setTarefas }: {
         <div className={style.module}>
             <h1>Formulário</h1>
             <form onSubmit={AdicionarTarefa}>
-                <input required type="text" />
+                <input onChange={(e) => setNome(e.target.value)} value={tudo.nome} required type="text" name="nome" />
                 <button>adicionar nome</button>
 
+
+
             </form>
+            {nome}
 
 
         </div>
