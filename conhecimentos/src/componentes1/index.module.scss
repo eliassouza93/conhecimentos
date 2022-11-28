@@ -1,11 +1,16 @@
-li {
+p {
     border: 1px solid black;
-    width: 100%;
+    background: rgba(216, 216, 216, 0.253);
+    width: 60%;
     height: 40px;
     display: flex;
     align-items: center;
+
 }
 
 button {
     cursor: pointer;
+    margin-left: 187px;
+ 
+    
 }
