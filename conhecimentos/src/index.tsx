@@ -1,5 +1,6 @@
 
-import Laboratorio from 'componentes1/praticando/consumindo';
+ 
+import Laboratorio from 'componentes1';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
