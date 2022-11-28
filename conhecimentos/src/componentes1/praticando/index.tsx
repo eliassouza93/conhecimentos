@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { createElement, useState } from "react"
 import Lista from "./lista"
 
 
@@ -11,6 +11,8 @@ export default function Praticando() {
     function Pegar(event: any) {
         event?.preventDefault()
         setPos(nome)
+
+        
 
     }
 
@@ -27,7 +29,7 @@ export default function Praticando() {
 
     return (
         <div>
-            <input value={nome} type="text" onChange={(e) => setNome(e.target.value)} />
+            <input   type="text" onChange={(e) => setNome(e.target.value)} />
 
             <button onClick={Pegar}>Clicar</button>
 
