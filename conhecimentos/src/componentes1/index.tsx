@@ -7,8 +7,9 @@ export default function Laboratorio() {
     }])
     const [tira, setTira] = useState('')
 
-    function TiraFunc () {
-         
+
+    function TiraFunc(event: any) {
+
     }
 
     return (
@@ -17,7 +18,7 @@ export default function Laboratorio() {
             <Formulario147 setTarefas={setTarefas} />
             {tarefas.map((est, index) => (
                 <div>
-                    <p>{est.nome}  <button> x </button> </p>
+                    <p>{est.nome}  </p>
                 </div>
             ))}
 
