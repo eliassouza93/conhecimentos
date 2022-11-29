@@ -14,8 +14,7 @@ interface IFiltros {
 
 export default function Filtros11() {
     const [itens, setItens] = useState([])
-
-
+    const [carregando, setCarregando] = useState(false)
     const produtos: IFiltros[] = [
         {
             "id": 1,
@@ -63,21 +62,36 @@ export default function Filtros11() {
 
     ]
     useEffect(() => {
+        const time = setTimeout(() => {
+            setCarregando(true)
+        }, 800);
+
 
     })
-
     return (
         <div>
-            <h1>Banco de dados Json</h1>
+            {!carregando ? (<h1>Carregando página...</h1>) : (
+                <div>
+                    <h1>Banco de dados Json</h1>
+                    <form>
+                        <input type="text" />
 
-            {produtos.map((user, index) => (
-                <div key={index}>
-                    <Itens key={index}
-                        {...user}
-                    />
+                        <button>Adicionar Item</button>
 
+                    </form>
+                    {produtos.map((user) => (
+
+                        <Itens key={user.id}
+                            {...user}
+                        />
+
+
+
+                    ))}
                 </div>
-            ))}
+
+            )}
+
 
         </div>
     )
