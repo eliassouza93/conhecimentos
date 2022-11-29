@@ -16,6 +16,7 @@ export default function Laboratorio() {
         <div className={style.module}  >
             <h1>Iniciando os testes</h1>
             <Formulario147 setTarefas={setTarefas} />
+            
             {tarefas.map((est, index) => (
                 <div>
                     <p>{est.nome}  </p>
