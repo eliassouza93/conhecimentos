@@ -7,14 +7,16 @@ interface IPRodutos {
 
 
 }
-export default function Espalhador({ }: IPRodutos) {
+export default function Espalhador({ nome, idade, profissao, telefone }: IPRodutos) {
     return (
         <div>
             <ul>
-                <li>
-
-
-                </li>
+                <h3>Usuário</h3>
+                <li>{nome} </li>
+                <li>{idade} </li>
+                <li>{profissao} </li>
+                <li>{telefone} </li>
+                <hr />
             </ul>
 
 
